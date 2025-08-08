@@ -107,6 +107,8 @@
 &kp N8   &kp LCTRL  &kp Z      &kp X     &kp C      &kp V     &trans  &kp B   &kp N   &kp M   &trans  &trans  &trans
 &trans   &kp N9     &kp LCTRL  &kp LALT  &kp SPACE  &mo 3     &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         Game_Mirror {
@@ -117,6 +119,8 @@
 &kp FSLH  &kp DOT       &kp COMMA  &kp M     &kp N      &kp B     &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans    &kp LEFT_WIN  &kp LCTRL  &kp LALT  &kp SPACE  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         Num {
@@ -127,6 +131,8 @@
 &trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &trans  &kp BACKSLASH  &kp KP_N1  &kp KP_N2   &kp KP_N3        &kp SLASH        &kp PERCENT
 &trans  &trans    &trans    &trans     &trans     &trans    &trans  &kp MINUS      &kp COMMA  &kp PERIOD  &kp KP_NUMBER_0  &kp KP_COMMA
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         Func {
@@ -137,6 +143,8 @@
 &trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12  &trans
 &trans  &trans    &trans    &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
