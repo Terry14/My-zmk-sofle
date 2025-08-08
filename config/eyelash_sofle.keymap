@@ -65,8 +65,6 @@
         label = "RGB_BRIGHTNESS";
         #sensor-binding-cells = <0>;
         bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
-
-        tap-ms = <100>;
     };
 
     behaviors {
