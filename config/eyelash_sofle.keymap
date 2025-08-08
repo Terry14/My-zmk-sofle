@@ -184,5 +184,15 @@
 &trans  &trans    &trans    &trans     &trans     &trans    &trans  &kp MINUS      &kp COMMA  &kp PERIOD  &kp KP_NUMBER_0  &kp KP_COMMA
             >;
         };
+
+        Func {
+            bindings = <
+&trans  &trans    &trans    &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans   &trans
+&trans  &trans    &kp DEL   &kp BSPC   &kp ENTER  &trans    &trans  &trans  &kp F7  &kp F8  &kp F9  &kp F10  &trans
+&trans  &trans    &kp ESC   &kp SPACE  &kp TAB    &trans    &trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11  &trans
+&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12  &trans
+&trans  &trans    &trans    &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
     };
 };
