@@ -60,12 +60,13 @@
         bindings = <&caps_word>, <&kp CAPS>;
     };
 
-    backlight_scroll: backlight_scroll {
-        compatible = "zmk,behavior-sensor-rotate-var";
-        label = "BACKLIGHT_SCROLL";
-        #sensor-binding-cells = <2>;
+    rgb_brightness: rgb_brightness {
+        compatible = "zmk,behavior-sensor-rotate";
+        label = "RGB_BRIGHTNESS";
+        #sensor-binding-cells = <0>;
+        bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
+
         tap-ms = <100>;
-        bindings = <&rgb_ug>, <&rgb_ug>;
     };
 
     behaviors {
@@ -96,7 +97,7 @@
 &trans           &trans           &trans           &trans           &trans           &trans          &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&backlight_scroll RGB_BRI RGB_BRD>;
+            sensor-bindings = <&rgb_brightness>;
         };
 
         Game {
