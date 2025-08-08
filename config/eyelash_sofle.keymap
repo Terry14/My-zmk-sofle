@@ -68,24 +68,6 @@
         bindings = <&rgb_ug>, <&rgb_ug>;
     };
 
-    l_parrow: l_parrow {
-        compatible = "zmk,behavior-mod-morph";
-        label = "L_PARROW";
-        bindings = <&kp LEFT_PARENTHESIS>, <&kp LESS_THAN>;
-
-        #binding-cells = <0>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-
-    r_parrow: r_parrow {
-        compatible = "zmk,behavior-mod-morph";
-        label = "R_PARROW";
-        bindings = <&kp RIGHT_PARENTHESIS>, <&kp GREATER_THAN>;
-
-        #binding-cells = <0>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-
     behaviors {
     };
 
@@ -139,7 +121,7 @@
 
         Num {
             bindings = <
-&trans  &trans    &trans    &trans     &trans     &trans    &trans  &kp TILDE      &kp LBKT   &l_parrow   &r_parrow        &kp RBKT         &kp KP_NLCK
+&trans  &trans    &trans    &trans     &trans     &trans    &trans  &kp TILDE      &kp LBKT   &none       &none            &kp RBKT         &kp KP_NLCK
 &trans  &trans    &kp DEL   &kp BSPC   &kp ENTER  &trans    &trans  &kp EXCL       &kp KP_N7  &kp KP_N8   &kp KP_N9        &kp KP_MULTIPLY  &kp SCROLLLOCK
 &trans  &trans    &kp ESC   &kp SPACE  &kp TAB    &trans    &trans  &kp EQUAL      &kp KP_N4  &kp KP_N5   &kp KP_N6        &kp KP_PLUS      &kp COLON
 &trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &trans  &kp BACKSLASH  &kp KP_N1  &kp KP_N2   &kp KP_N3        &kp SLASH        &kp PERCENT
