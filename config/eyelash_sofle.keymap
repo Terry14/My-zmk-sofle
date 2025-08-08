@@ -39,7 +39,7 @@
         compatible = "zmk,behavior-tap-dance";
         label = "BASEGAME";
         #binding-cells = <0>;
-        bindings = <&to 0>, <&to 4>;
+        bindings = <&to 0>, <&to 2>;
     };
 
     tph: tph {
@@ -105,31 +105,6 @@
             display-name = "Base";
         };
 
-        layer_1 {
-            bindings = <
-&kp GRAVE  &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &trans
-&trans     &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
-&trans     &kp TILDE        &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans     &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
-&basegame  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
-            >;
-
-            display-name = "layer1";
-            sensor-bindings = <&scroll_encoder>;
-        };
-
-        layer_2 {
-            bindings = <
-&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
-&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
-&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
-&trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
-&trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
-            >;
-
-            sensor-bindings = <&scroll_encoder>;
-        };
-
         BT_RGB {
             bindings = <
 &out OUT_TOG     &bt BT_SEL 4     &bt BT_SEL 3     &bt BT_SEL 2     &bt BT_SEL 1     &bt BT_SEL 0    &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -148,7 +123,7 @@
 &kp N6   &kp TAB    &kp Q      &kp W     &kp E      &kp R     &trans  &kp T   &kp Y   &kp U   &kp I   &kp O   &kp P
 &kp N7   &kp LSHFT  &kp A      &kp S     &kp D      &kp F     &trans  &kp G   &kp H   &kp J   &kp K   &kp L   &trans
 &kp N8   &kp LCTRL  &kp Z      &kp X     &kp C      &kp V     &trans  &kp B   &kp N   &kp M   &trans  &trans  &trans
-&trans   &kp N9     &kp LCTRL  &kp LALT  &kp SPACE  &mo 5     &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &kp N9     &kp LCTRL  &kp LALT  &kp SPACE  &mo 3     &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -160,19 +135,6 @@
 &kp FSLH  &kp DOT       &kp COMMA  &kp M     &kp N      &kp B     &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans    &kp LEFT_WIN  &kp LCTRL  &kp LALT  &kp SPACE  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
-        };
-
-        layer_6 {
-            display-name = "LAYER0";
-            bindings = <
-&kp ESC     &kp N5           &kp N4           &kp N3        &kp N2             &kp N1     &kp UP_ARROW     &kp N6     &kp N7              &kp N8            &kp N9              &kp N0               &kp BACKSPACE
-&kp TAB     &kp Q            &kp W            &kp F         &kp P              &kp B      &kp DOWN_ARROW   &kp J      &kp L               &kp U             &kp Y               &kp APOS             &none
-&capsdance  &kp A            &kp R            &kp S         &kp S              &kp T      &kp LEFT_ARROW   &kp M      &kp N               &kp E             &kp I               &kp O                &none
-&kp LSHFT   &tph LEFT_WIN Z  &tph LEFT_ALT X  &tph LCTRL C  &tph LEFT_SHIFT D  &kp V      &kp RIGHT_ARROW  &kp K      &tph RIGHT_SHIFT H  &tph RCTRL COMMA  &tph RIGHT_ALT DOT  &tph RIGHT_WIN FSLH  &none
-&basegame   &kp LCTRL        &none            &kp ESC       &kp SPACE          &kp TAB    &kp TAB          &kp ENTER  &kp BACKSPACE       &kp DEL           &none               &none
-            >;
-
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         Num {
