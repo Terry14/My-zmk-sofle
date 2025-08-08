@@ -102,9 +102,9 @@
         Game_Mirror {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp P   &kp O   &kp I   &kp U   &kp Y   &kp T     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp L   &kp K   &kp J   &kp H   &kp G     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp M   &kp N   &kp B     &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
