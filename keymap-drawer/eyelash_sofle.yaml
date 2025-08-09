@@ -58,9 +58,9 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-esc$$', h: '&mo_func'}
   - {t: '$$mdi:keyboard-space$$', h: '&mo_num'}
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: '&Mo_sym1'}
   - '&to_game'
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', h: '&Mo_sym2'}
   - {t: '$$mdi:backspace$$', h: '&mo_nav'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '&mo_sys'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
