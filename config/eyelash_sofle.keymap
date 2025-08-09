@@ -129,9 +129,9 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&mo 4 &rgb_ug RGB_COLOR_HSB(177,100,50)>,
+                <&tog 4 &rgb_ug RGB_COLOR_HSB(177,100,50)>,
                 <&macro_pause_for_release>,
-                <&base_col>;
+                <&tog 4 &base_col>;
 
             label = "MO_NUM";
         };
@@ -140,9 +140,9 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&mo 5 &rgb_ug RGB_COLOR_HSB(281,100,50)>,
+                <&tog 5 &rgb_ug RGB_COLOR_HSB(281,100,50)>,
                 <&macro_pause_for_release>,
-                <&base_col>;
+                <&tog 5 &base_col>;
 
             label = "MO_FUNC";
         };
@@ -151,9 +151,9 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&mo 6 &rgb_ug RGB_COLOR_HSB(112,100,50)>,
+                <&tog 6 &rgb_ug RGB_COLOR_HSB(112,100,50)>,
                 <&macro_pause_for_release>,
-                <&base_col>;
+                <&tog 6 &base_col>;
 
             label = "MO_NAV";
         };
@@ -162,9 +162,9 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&mo 3 &rgb_ug RGB_COLOR_HSB(270,100,50)>,
+                <&tog 3 &rgb_ug RGB_COLOR_HSB(270,100,50)>,
                 <&macro_pause_for_release>,
-                <&base_col>;
+                <&tog 3 &base_col>;
 
             label = "MO_GAME2";
         };
@@ -187,9 +187,9 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&mo 1 &rgb_ug RGB_COLOR_HSB(70,100,50)>,
+                <&tog 1 &rgb_ug RGB_COLOR_HSB(70,100,50)>,
                 <&macro_pause_for_release>,
-                <&base_col>;
+                <&tog 1 &base_col>;
 
             label = "MO_SYS";
         };
