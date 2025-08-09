@@ -70,22 +70,6 @@
     behaviors {
     };
 
-    macros {
-        base_rgb: bg {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&to 0 &rgb_ug RGB_COLOR_HSB(232,100,48)>;
-            label = "BG";
-        };
-
-        game_rgb: game_rgb {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&to 2 &rgb_ug RGB_COLOR_HSB(0,100,50)>;
-            label = "GAME_RGB";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -104,11 +88,11 @@
 
         BT_RGB {
             bindings = <
-&out OUT_TOG     &bt BT_SEL 4     &bt BT_SEL 3     &bt BT_SEL 2     &bt BT_SEL 1     &bt BT_SEL 0    &trans  &trans  &trans  &trans  &trans  &trans  &bootloader
-&trans           &trans           &trans           &trans           &trans           &bt BT_CLR      &trans  &trans  &trans  &trans  &trans  &trans  &sys_reset
-&none            &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&rgb_ug RGB_TOG  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans           &trans           &trans           &trans           &trans           &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&out OUT_TOG     &bt BT_SEL 4     &bt BT_SEL 3     &bt BT_SEL 2     &bt BT_SEL 1     &bt BT_SEL 0    &trans  &trans  &trans     &trans     &trans    &trans    &bootloader
+&trans           &trans           &trans           &trans           &trans           &bt BT_CLR      &trans  &trans  &kp TAB    &kp SPACE  &kp ESC   &trans    &sys_reset
+&none            &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &trans          &trans  &trans  &kp RET    &kp BSPC   &kp DEL   &trans    &trans
+&rgb_ug RGB_TOG  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &trans          &trans  &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp RGUI  &trans
+&trans           &trans           &trans           &trans           &trans           &trans          &trans  &trans  &trans     &trans     &trans    &trans
             >;
 
             sensor-bindings = <&rgb_brightness>;
@@ -161,6 +145,19 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+        };
+
+        nav {
+            bindings = <
+&trans  &trans       &trans     &trans      &trans       &trans        &trans  &trans  &trans     &trans     &trans    &trans    &trans
+&trans  &kp PAGE_UP  &kp HOME   &kp UP      &kp END      &kp INS       &trans  &trans  &kp TAB    &kp SPACE  &kp ESC   &trans    &trans
+&trans  &kp PG_DN    &kp LEFT   &kp DOWN    &kp RIGHT    &capsdance    &trans  &trans  &kp RET    &kp BSPC   &kp DEL   &trans    &trans
+&trans  &kp K_UNDO   &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_REDO    &trans  &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp RGUI  &trans
+&trans  &trans       &trans     &trans      &trans       &trans        &trans  &trans  &trans     &trans     &trans    &trans
+            >;
+
+            label = "nav";
+            sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
         };
     };
 };
