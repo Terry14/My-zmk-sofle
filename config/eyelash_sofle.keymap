@@ -74,7 +74,7 @@
 
         #binding-cells = <2>;
         tapping-term-ms = <140>;
-        hold-while-undecided;
+        flavor = "balanced";
     };
 
     mo_numb: mo_numb {
@@ -84,7 +84,7 @@
 
         #binding-cells = <2>;
         tapping-term-ms = <140>;
-        hold-while-undecided;
+        flavor = "balanced";
     };
 
     mo_funcb: mo_funcb {
@@ -94,17 +94,7 @@
 
         #binding-cells = <2>;
         tapping-term-ms = <140>;
-        hold-while-undecided;
-    };
-
-    mo_game2b: mo_game2b {
-        compatible = "zmk,behavior-hold-tap";
-        label = "MO_GAME2B";
-        bindings = <&mo_game2>, <&kp>;
-
-        #binding-cells = <2>;
-        tapping-term-ms = <140>;
-        hold-while-undecided;
+        flavor = "balanced";
     };
 
     mo_sysb: mo_sysb {
@@ -114,7 +104,7 @@
 
         #binding-cells = <2>;
         tapping-term-ms = <140>;
-        hold-while-undecided;
+        flavor = "balanced";
     };
 
     behaviors {
