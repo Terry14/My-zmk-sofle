@@ -220,6 +220,7 @@
 &trans           &trans           &trans           &trans           &trans           &trans          &trans  &trans  &trans     &trans     &trans    &trans
             >;
 
+            label = "Sys";
             sensor-bindings = <&rgb_brightness>;
         };
 
@@ -245,6 +246,7 @@
 &trans    &kp LEFT_WIN  &kp LALT   &kp SPACE  &none   &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
+            label = "Game2";
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
@@ -257,6 +259,7 @@
 &trans  &trans    &trans    &trans     &trans     &trans    &trans  &kp MINUS      &kp COMMA  &kp PERIOD  &kp KP_NUMBER_0  &kp KP_COMMA
             >;
 
+            label = "Num";
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
@@ -269,6 +272,7 @@
 &trans       &trans    &trans    &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
+            label = "Func";
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
@@ -281,7 +285,7 @@
 &trans  &trans       &trans     &trans      &trans       &trans        &trans  &trans  &trans     &trans     &trans    &trans
             >;
 
-            label = "nav";
+            label = "Nav";
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
         };
     };
