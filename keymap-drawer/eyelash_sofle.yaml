@@ -321,10 +321,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
-  - {t: ',', s: <}
-  - .
+  - KP DOT
   - KP 0
   - KP COMMA
+  - KP NUM
   Func:
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
