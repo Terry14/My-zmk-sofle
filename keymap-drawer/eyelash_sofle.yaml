@@ -321,8 +321,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
-  - KP DOT
   - KP 0
+  - KP DOT
   - KP COMMA
   - KP NUM
   Func:
