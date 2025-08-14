@@ -127,6 +127,13 @@
         flavor = "balanced";
     };
 
+    game_base: game_base {
+        compatible = "zmk,behavior-tap-dance";
+        label = "GAME_BASE";
+        #binding-cells = <0>;
+        bindings = <&to_game>, <&to_base>;
+    };
+
     behaviors {
     };
 
