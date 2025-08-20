@@ -59,7 +59,7 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: '&mo_func'}
   - {t: '$$mdi:keyboard-space$$', h: '&mo_num'}
   - {t: '$$mdi:keyboard-tab$$', h: '&Mo_sym1'}
-  - '&to_game'
+  - '&game_base'
   - {t: '$$mdi:keyboard-return$$', h: '&Mo_sym2'}
   - {t: '$$mdi:backspace$$', h: '&mo_nav'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '&mo_sys'}
@@ -189,7 +189,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
   - '&mo_game2'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&game_base'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -585,3 +585,6 @@ layers:
   - )
   - <
   - '>'
+combos:
+- p: [62, 63]
+  k: {t: Sys, h: toggle}
