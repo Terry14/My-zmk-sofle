@@ -2040,12 +2040,6 @@ rect.held, rect.combo.held {
 <tspan x="0" dy="-0.6em">KP</tspan><tspan x="0" dy="1.2em">NUM</tspan>
 </text>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="742" y="242" width="28" height="26" class="combo"/>
-<a href="#Sys">
-<text x="756" y="256" class="combo tap layer-activator">Sys</text>
-</a><text x="756" y="266" class="combo hold">toggle</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 1941)" class="layer-Func">
@@ -2375,12 +2369,6 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="742" y="242" width="28" height="26" class="combo"/>
-<a href="#Sys">
-<text x="756" y="256" class="combo tap layer-activator">Sys</text>
-</a><text x="756" y="266" class="combo hold">toggle</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 2329)" class="layer-Nav">
@@ -2707,12 +2695,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
-</g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="742" y="242" width="28" height="26" class="combo"/>
-<a href="#Sys">
-<text x="756" y="256" class="combo tap layer-activator">Sys</text>
-</a><text x="756" y="266" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -3051,12 +3033,6 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="742" y="242" width="28" height="26" class="combo"/>
-<a href="#Sys">
-<text x="756" y="256" class="combo tap layer-activator">Sys</text>
-</a><text x="756" y="266" class="combo hold">toggle</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 3106)" class="layer-Sym1">
@@ -3385,12 +3361,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">&gt;</text>
-</g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="742" y="242" width="28" height="26" class="combo"/>
-<a href="#Sys">
-<text x="756" y="256" class="combo tap layer-activator">Sys</text>
-</a><text x="756" y="266" class="combo hold">toggle</text>
 </g>
 </g>
 </g>

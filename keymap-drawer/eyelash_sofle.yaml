@@ -588,3 +588,4 @@ layers:
 combos:
 - p: [62, 63]
   k: {t: Sys, h: toggle}
+  l: [Base, Game, Sys, Game2]
