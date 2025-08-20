@@ -250,6 +250,7 @@
         ToSys {
             bindings = <&to 1>;
             key-positions = <62 63>;
+            layers = <0 2 1 3>;
         };
     };
 
