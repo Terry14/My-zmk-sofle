@@ -276,11 +276,11 @@
 
         Base {
             bindings = <
-&kp ESC     &kp N5           &kp N4           &kp N3           &kp N2               &kp N1             &kp UP_ARROW     &kp N6             &kp N7                &kp N8            &kp N9              &kp N0               &kp BACKSPACE
-&kp TAB     &kp Q            &kp W            &kp F            &kp P                &kp B              &kp DOWN_ARROW   &kp J              &kp L                 &kp U             &kp Y               &kp APOS             &none
-&capsdance  &kp A            &kp R            &kp S            &kp T                &kp G              &kp LEFT_ARROW   &kp M              &kp N                 &kp E             &kp I               &kp O                &none
-&kp LSHFT   &tph LEFT_WIN Z  &tph LEFT_ALT X  &tph LCTRL C     &tph LEFT_SHIFT D    &kp V              &kp RIGHT_ARROW  &kp K              &tph RIGHT_SHIFT H    &tph RCTRL COMMA  &tph RIGHT_ALT DOT  &tph RIGHT_WIN FSLH  &none
-&basegame   &kp LCTRL        &kp LEFT_ALT     &mo_funcb 0 ESC  &mo_numpadb 0 SPACE  &Mo_sym1b 0 TAB    &game_base       &Mo_sym2b 0 ENTER  &mo_navb 0 BACKSPACE  &mo_sysb 0 DEL    &to_numpad          &none
+&kp ESC     &kp N5           &kp N4           &kp N3           &kp N2             &kp N1             &kp UP_ARROW     &kp N6             &kp N7                &kp N8            &kp N9              &kp N0               &kp BACKSPACE
+&kp TAB     &kp Q            &kp W            &kp F            &kp P              &kp B              &kp DOWN_ARROW   &kp J              &kp L                 &kp U             &kp Y               &kp APOS             &none
+&capsdance  &kp A            &kp R            &kp S            &kp T              &kp G              &kp LEFT_ARROW   &kp M              &kp N                 &kp E             &kp I               &kp O                &none
+&kp LSHFT   &tph LEFT_WIN Z  &tph LEFT_ALT X  &tph LCTRL C     &tph LEFT_SHIFT D  &kp V              &kp RIGHT_ARROW  &kp K              &tph RIGHT_SHIFT H    &tph RCTRL COMMA  &tph RIGHT_ALT DOT  &tph RIGHT_WIN FSLH  &none
+&basegame   &kp LCTRL        &kp LEFT_ALT     &mo_funcb 0 ESC  &mo_numb 0 SPACE   &Mo_sym1b 0 TAB    &game_base       &Mo_sym2b 0 ENTER  &mo_navb 0 BACKSPACE  &mo_sysb 0 DEL    &to_numpad          &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
