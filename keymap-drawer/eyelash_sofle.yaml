@@ -57,7 +57,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-esc$$', h: '&mo_func'}
-  - {t: '$$mdi:keyboard-space$$', h: '&to_numpad'}
+  - {t: '$$mdi:keyboard-space$$', h: '&mo_num'}
   - {t: '$$mdi:keyboard-tab$$', h: '&Mo_sym1'}
   - '&game_base'
   - {t: '$$mdi:keyboard-return$$', h: '&Mo_sym2'}
