@@ -52,7 +52,7 @@ layers:
   - {t: ',', h: '$$mdi:apple-keyboard-control$$', s: <}
   - {t: ., h: '$$mdi:apple-keyboard-option$$', s: '>'}
   - {t: /, h: RIGHT WIN, s: '?'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - PRINTSCREEN
   - '&basegame'
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
@@ -182,7 +182,7 @@ layers:
   - M
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '9', s: (}
   - $$mdi:apple-keyboard-control$$
