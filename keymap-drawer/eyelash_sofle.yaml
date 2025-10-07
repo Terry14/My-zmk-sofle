@@ -298,7 +298,7 @@ layers:
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - KP PLUS
+  - {t: ;, s: ':'}
   - ':'
   - {t: '$$mdi:transfer$$', type: trans}
   - LGUI
@@ -322,8 +322,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   - {t: '0', s: )}
-  - KP DOT
-  - KP COMMA
+  - {t: ., s: '>'}
+  - {t: ',', s: <}
   - KP NUM
   Func:
   - $$mdi:progress-download$$
