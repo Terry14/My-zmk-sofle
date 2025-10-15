@@ -263,7 +263,7 @@
         to_gameF: tempFGaming {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&tog 10 &rgb_ug RGB_COLOR_HSB(288,80,55)>;
+            bindings = <&to 10 &rgb_ug RGB_COLOR_HSB(288,80,55)>;
             label = "TEMPFGAMING";
         };
     };
