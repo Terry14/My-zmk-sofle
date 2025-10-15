@@ -201,7 +201,7 @@
             bindings =
                 <&to 3 &rgb_ug RGB_COLOR_HSB(270,100,50)>,
                 <&macro_pause_for_release>,
-                <&to 3 &game_col>;
+                <&to 2 &game_col>;
 
             label = "MO_GAME2";
         };
@@ -271,9 +271,9 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&to 10 &rgb_ug RGB_COLOR_HSB(270,100,50)>,
+                <&to 3 &rgb_ug RGB_COLOR_HSB(270,100,50)>,
                 <&macro_pause_for_release>,
-                <&to 10 &game_col>;
+                <&to 10 &rgb_ug RGB_COLOR_HSB(283,100,57)>;
 
             label = "MO_GAME3";
         };
