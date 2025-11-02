@@ -144,7 +144,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - '&to_gameF'
-  - {t: '6', s: ^}
+  - F1
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -157,7 +157,7 @@ layers:
   - I
   - O
   - P
-  - {t: '7', s: '&'}
+  - F2
   - $$mdi:apple-keyboard-shift$$
   - A
   - S
@@ -170,7 +170,7 @@ layers:
   - K
   - L
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '8', s: '*'}
+  - F3
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
