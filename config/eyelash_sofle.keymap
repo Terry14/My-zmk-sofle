@@ -320,11 +320,11 @@
 
         Game {
             bindings = <
-&kp ESC  &kp N5     &kp N4     &kp N3    &kp N2     &kp N1       &trans     &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &to_gameF
-&kp F1   &kp TAB    &kp Q      &kp W     &kp E      &kp R        &trans     &kp T   &kp Y   &kp U   &kp I   &kp O   &kp P
-&kp F2   &kp LSHFT  &kp A      &kp S     &kp D      &kp F        &trans     &kp G   &kp H   &kp J   &kp K   &kp L   &trans
-&kp F3   &kp LCTRL  &kp Z      &kp X     &kp C      &kp V        &trans     &kp B   &kp N   &kp M   &trans  &trans  &kp PRINTSCREEN
-&trans   &kp N9     &kp LCTRL  &kp LALT  &kp SPACE  &mo_game2    &basegame  &trans  &trans  &trans  &trans  &trans
+&kp ESC  &kp N5     &kp N4     &kp N3    &kp N2     &kp N1       &trans     &kp N6  &kp N7    &kp N8    &kp N9     &kp N0  &to_gameF
+&kp F1   &kp TAB    &kp Q      &kp W     &kp E      &kp R        &trans     &kp T   &kp Y     &kp UP    &kp I      &kp O   &kp P
+&kp F2   &kp LSHFT  &kp A      &kp S     &kp D      &kp F        &trans     &kp G   &kp LEFT  &kp DOWN  &kp RIGHT  &kp L   &trans
+&kp F3   &kp LCTRL  &kp Z      &kp X     &kp C      &kp V        &trans     &kp B   &kp N     &kp M     &trans     &trans  &kp PRINTSCREEN
+&trans   &kp N9     &kp LCTRL  &kp LALT  &kp SPACE  &mo_game2    &basegame  &trans  &trans    &trans    &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
